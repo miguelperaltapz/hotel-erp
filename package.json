@@ -1,0 +1,31 @@
+{
+  "name": "hotel-erp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "vite:dev": "vite",
+    "vite:build": "vite build",
+    "electron:dev": "wait-on tcp:5173 && electron .",
+    "dev": "concurrently -k \"npm run vite:dev\" \"npm run electron:dev\"",
+    "start": "npm run dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@ant-design/icons": "^6.3.4",
+    "antd": "^6.6.2",
+    "electron": "^44.1.0",
+    "electron-reload": "^2.0.0-alpha.1",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.5",
+    "vite": "^8.2.2",
+    "wait-on": "^9.1.0"
+  }
+}

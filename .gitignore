@@ -1,0 +1,16 @@
+# Dependencias de Node
+node_modules/
+
+# Archivos de compilación de Vite y Electron
+dist/
+dist-electron/
+build/
+
+# Archivos de entorno y logs
+.env
+*.log
+npm-debug.log*
+
+# Configuración local de IDEs
+.vscode/
+.DS_Store
