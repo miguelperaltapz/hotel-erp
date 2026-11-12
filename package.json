@@ -16,6 +16,7 @@
   "type": "commonjs",
   "dependencies": {
     "@ant-design/icons": "^6.3.4",
+    "@supabase/supabase-js": "^2.117.1",
     "antd": "^6.6.2",
     "electron": "^44.1.0",
     "electron-reload": "^2.0.0-alpha.1",
